@@ -13,6 +13,8 @@
 		9E3EAD5720DAE04E00640764 /* Brain_Dump.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9E3EAD5520DAE04E00640764 /* Brain_Dump.xcdatamodeld */; };
 		9E3EAD5920DAE04F00640764 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E3EAD5820DAE04F00640764 /* Assets.xcassets */; };
 		9E3EAD5C20DAE04F00640764 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E3EAD5A20DAE04F00640764 /* LaunchScreen.storyboard */; };
+		9E3EAD6520DAE71C00640764 /* Note+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3EAD6320DAE71C00640764 /* Note+CoreDataClass.swift */; };
+		9E3EAD6620DAE71C00640764 /* Note+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3EAD6420DAE71C00640764 /* Note+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		9E3EAD5820DAE04F00640764 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9E3EAD5B20DAE04F00640764 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9E3EAD5D20DAE04F00640764 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E3EAD6320DAE71C00640764 /* Note+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataClass.swift"; sourceTree = "<group>"; };
+		9E3EAD6420DAE71C00640764 /* Note+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Note+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		9E3EAD4D20DAE04E00640764 /* Brain Dump */ = {
 			isa = PBXGroup;
 			children = (
+				9E3EAD6320DAE71C00640764 /* Note+CoreDataClass.swift */,
+				9E3EAD6420DAE71C00640764 /* Note+CoreDataProperties.swift */,
 				9E3EAD4E20DAE04E00640764 /* AppDelegate.swift */,
 				9E3EAD5020DAE04E00640764 /* ViewController.swift */,
 				9E3EAD5220DAE04E00640764 /* Main.storyboard */,
@@ -139,8 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E3EAD5120DAE04E00640764 /* ViewController.swift in Sources */,
+				9E3EAD6520DAE71C00640764 /* Note+CoreDataClass.swift in Sources */,
 				9E3EAD5720DAE04E00640764 /* Brain_Dump.xcdatamodeld in Sources */,
 				9E3EAD4F20DAE04E00640764 /* AppDelegate.swift in Sources */,
+				9E3EAD6620DAE71C00640764 /* Note+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
